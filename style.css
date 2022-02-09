@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #000000;
+  }
+  
+/* CONTAINERS*/
+
+  #main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+  }
+  .number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% - 120px) / 7);
+    background-color: #076e91;
+    padding: 40px;
+  }
+
+/*COLORI CONT*/
+
+  
