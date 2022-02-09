@@ -13,4 +13,20 @@ for (let i = 1; i < 101; i++) {
   container.append(squareWrapper);
   squareWrapper.classList.add('number');
 
-   
+   //15
+
+  if (i % 15 === 0) {
+    squareWrapper.classList.add('fizzbuzz');
+    squareWrapper.append('fizzbuzz');
+    // 3
+  } else if (i % 3 === 0) {
+    squareWrapper.classList.add('fizz');
+    squareWrapper.append('fizz');
+    // 5
+  } else if (i % 5 === 0) {
+    squareWrapper.classList.add('buzz');
+    squareWrapper.append('buzz');
+  } else {
+    squareWrapper.append(i);
+  }
+}

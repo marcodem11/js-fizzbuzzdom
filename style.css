@@ -27,4 +27,12 @@
 
 /*COLORI CONT*/
 
-  
+.fizzbuzz {
+    background-color: #f03561;
+  }
+  .fizz {
+    background-color: #07a077;
+  }
+  .buzz {
+    background-color: #eeba41;
+  }
